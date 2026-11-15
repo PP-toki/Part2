@@ -1,0 +1,39 @@
+html ,body{
+    height: 100%;
+}
+
+body {
+    padding: 2vh 1.5vw;
+    background-color: white;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  border-radius: 25px;
+  gap: 20px;
+}
+
+
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 17%;
+  border: 5px solid #000;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 17%;
+  border: 5px solid #000;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 17%;
+  border: 5px solid #000;
+}

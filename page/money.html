@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8">
+    <title>ชื่อแท็บของเว็บ</title>
+    <link rel="stylesheet" href="../css/money.css">
+  </head>
+  <body>
+<div class="card">
+  <h2>ตัวแปลงสกุลเงิน</h2>
+
+  <label for="amount">จำนวนเงิน</label>
+  <input id="amount" type="number" value="100" min="0">
+
+  <div class="row">
+    <select id="from">
+      <option selected>USD</option><option>EUR</option>
+      <option>JPY</option><option>CNY</option><option>THB</option>
+    </select>
+    <button id="swap" title="สลับสกุลเงิน">⇄</button>
+    <select id="to">
+      <option selected>THB</option><option>USD</option>
+      <option>EUR</option><option>JPY</option><option>CNY</option>
+    </select>
+  </div>
+
+  <button id="convert" class="primary">แปลงค่า</button>
+  <p id="result" class="result">-</p>
+  <small id="info"></small>
+</div>
+
+    <script src="/js/money.js"></script>
+
+  </body>
+</html>
